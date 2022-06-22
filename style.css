@@ -1,0 +1,206 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: opp;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: oppp;
+    src: url(Poppins-SemiBold.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(bggg.png);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav h3 {
+    margin-left: 70px;
+    font-family: poppins;
+    font-size: 24px;
+    color: #e71e03;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.nav span {
+    color: rgb(247, 247, 247);
+}
+
+.nav-bar  {
+    margin-top: 34px;
+    margin-left: 100px;
+    
+}
+
+.nav-bar a {
+    margin-left: 95px;
+    text-decoration: none;
+    color: white;
+    font-family: opp;
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    opacity: 87%;
+}
+
+.nav-bar a:hover {
+    opacity: 100%;
+}
+
+.log a, .sign a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    letter-spacing: 0.5px;
+    font-family: opp;
+    font-size: 12px;
+    
+}
+
+.log, .sign {
+    margin-top: 34px;
+}
+
+.log {
+    margin-left: 140px;
+}
+
+.sign a {
+    background-color: #e71e03;
+    padding: 4px 15px 4px 15px;
+    border-radius: 4px;
+}
+
+.sign a:hover {
+    background-color: #d3260f;
+}
+
+
+
+.log a {
+    display: inline-block;
+    opacity: 84%;
+}
+
+.log a::after {
+    content: "";
+    border-bottom: 1px solid rgb(243, 243, 243);
+    display: block;
+    transform: scaleX(0);
+    transition: 250ms ease-in-out;
+}
+
+.log a:hover:after {
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+}
+
+.log a:hover {
+    opacity: 100%;
+}
+
+.desk-header {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.desk-header span {
+    color: #e71e03;
+}
+
+.desk-header h1 {
+    color: white;
+    font-family: oppp;
+    letter-spacing: 3.4px;
+    font-size: 47px;
+    line-height: 1.2;
+}
+
+.desk-header h2 {
+    color: white;
+    font-family: opp;
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+
+
+.button-mid {
+    display: flex;
+    margin-top: 20px;
+}
+
+.exp a, .make a {
+    text-decoration: none;
+    color: white;
+    font-family: opp;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.exp a {
+    background-color: #e71e03;
+    padding: 5px 32px 5px 32px;
+    border-radius: 4px;
+}
+
+.exp a:hover {
+    background-color: #d3260f;
+}
+
+.make a {
+    margin-left: 30px;
+    border: solid 1px white;
+    padding: 5px 32px 5px 32px;
+    border-radius: 4px;
+}
+
+
+.user {
+    display: flex;
+    margin-top: 38px;
+}
+
+.collect, .auc, .artist {
+    text-align: center;
+    color: white;
+    line-height: 0.8;
+}
+
+.auc, .artist {
+    margin-left: 32px;
+    border-left: solid 1px white;
+    padding-left: 25px;
+    height: 70px;
+}
+
+.user h3, .auc h3 , .artist h3 {
+    font-family: oppp;
+    letter-spacing: 0.9px;
+    opacity: 88%;
+}
+
+.user p, .auc p , .artist p {
+    font-family: opp;
+    font-size: 10px;
+    letter-spacing: 1.4px;
+}
+
+.desk-header p {
+    color: white;
+    font-family: opp;
+    font-size: 10px;
+    letter-spacing: 2px;
+    opacity: 80%;
+    margin-top: 19px;
+}
